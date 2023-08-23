@@ -1,0 +1,152 @@
+.app-container {
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  background-color: #9ba9eb;
+}
+.both-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.upper-card-con {
+  background-color: #5763a5;
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  height: 80vh;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+  flex-grow: 1;
+  border-radius: 15px;
+}
+.lower {
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.add-password-con {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #454f84;
+  margin: 30px;
+  border-radius: 15px;
+  width: 40%;
+  padding: 20px;
+}
+.add-password-heading {
+  font-family: roboto;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+}
+.input-con {
+  display: flex;
+  margin-bottom: 10px;
+}
+.input-img {
+  width: 38px;
+  height: 40px;
+  background-color: #ffffff;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.input {
+  width: 350px;
+  height: 40px;
+  padding-left: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: none;
+}
+.password-manager-img {
+  width: 40%;
+}
+
+.app-logo {
+  width: 15%;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+.add-btn {
+  color: #ffffff;
+  background-color: #0b69ff;
+  border-radius: 10px;
+  width: 60px;
+  height: 36px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  align-self: flex-end;
+  margin-right: 24%;
+}
+.span-element {
+  border: 2px solid #b6c3ca;
+  margin-left: 20px;
+}
+
+.password-search-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.lower-heading {
+  padding-left: 30px;
+}
+.search-img {
+  background-color: #ffffff;
+  width: 30px;
+  height: 29px;
+  margin-top: 0.5px;
+}
+
+.search-input {
+  width: 200px;
+  height: 30px;
+}
+
+.search-con {
+  display: flex;
+  margin-top: 20px;
+  margin-right: 35px;
+}
+.separator {
+  border: 2px solid #b6c3ca;
+  width: 95%;
+}
+
+.checkbox-con {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 35px;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+}
+.checkbox-name {
+  font-family: roboto;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.un-ordered-list {
+  display: flex;
+  margin: 10px;
+}
+.empty-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+.empty-image {
+  width: 40%;
+}
